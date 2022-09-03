@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details:</h1>
+    <p>NUMBER: 1234567890</p>
+    <p>ADDRESS: IIIT-Hyderabad etc etc address</p>
+    <p>EMAIL: abc@gmail.com</p>
+    <hr>
+
+    <!-- <form class="" action="mailto:anivaibh24@gmail.com" method="post"> -->
+      <!--now to make the text in the mail encoded in utf u must type this-->
+        <form action="mailto:anivaibh24@gmail.com" method="post" enctype="text/plain">
+      <label for=""> Your Name:</label>
+      <input type="text" name="yourName" value="">
+      <!-- the name attribute gives it a nmae i side the mai  so when we use it and then click on submit,
+      it will open email and in thet it will type yourName-Ananya   yourEmail:   and so on
+      wherever we have added that name attribute-->
+      <!-- <input type="color" name="" value=""> -->
+      <br>
+<label>Do you want to subscribe?</label>
+<input type="checkbox" name="yesorno" value="">
+<!-- <input type="submit" name="" value="submit"> -->
+<br>
+<label for="">Your Email:</label>
+<input type="email" name="yourEmail" value="">
+<br>
+<label for="">Your Message</label>
+<textarea name="yourMessage" rows="10" cols="30"></textarea>
+<input type="submit" name="" value="Submit">
+<!-- <input type="file" name="" value=""> -->
+<!-- <input type="radio" name="" value="">
+<input type="range" name="" value="">
+<input type="date" name="" value=""> -->
+    </form>
+  </body>
+</html>
